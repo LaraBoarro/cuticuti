@@ -11,7 +11,7 @@ import Head from '../Helper/Head';
 
 const UserPhotoPost = () => {
   const nome = useForm();
-  const descricao = useForm();
+  const description = useForm();
   const dono = useForm();
   const raca = useForm();
   const idade = useForm('number');
@@ -29,7 +29,7 @@ const UserPhotoPost = () => {
     const formData = new FormData();
     formData.append('img', img.raw);
     formData.append('nome', nome.value);
-    formData.append('descricao', descricao.value);
+    formData.append('description', description.value);
     formData.append('dono', dono.value);
     formData.append('raca', raca.value);
     formData.append('idade', idade.value);
@@ -51,7 +51,7 @@ const UserPhotoPost = () => {
       <Head title="Poste sua foto" />
       <form onSubmit={handleSubmit}>
         <Input label="Título" type="text" name="nome" {...nome} />
-        <Input label="Descrição" type="text" name="descricao" {...descricao} />
+        <Input label="Descrição" type="text" name="description" {...description} />
         <Input label="Dono" type="text" name="dono" {...dono} />
         <Input label="Raça" type="text" name="raca" {...raca} />
         <Input label="Idade" type="number" name="idade" {...idade} />

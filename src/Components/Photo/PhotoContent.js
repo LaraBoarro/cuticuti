@@ -30,7 +30,7 @@ const PhotoContent = ({ data, single }) => {
           <h1 className="title">
             <Link to={`/foto/${photo.id}`}>{photo.title}</Link>
           </h1>
-          <p>{photo.descricao}</p>
+          <p>{photo.description}</p>
           <ul className={styles.attributes}>
             <li>Dono: {photo.dono}</li>
             <li>{photo.raca}</li>
