@@ -11,7 +11,8 @@ const Header = () => {
     <header className={styles.header}>
       <nav className={`${styles.nav} container`}>
         <Link className={styles.logo} to="/" aria-label="Dogs - Home">
-          <Dogs />
+          <Dogs /> 
+          <span style={{paddingLeft: '10px'}}>Feed de Fotos</span>
         </Link>
         {data ? (
           <Link className={styles.login} to="/conta">

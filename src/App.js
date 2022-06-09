@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header';
@@ -11,6 +12,7 @@ import ProtectedRoute from './Components/Helper/ProtectedRoute';
 import Photo from './Components/Photo/Photo';
 import UserProfile from './Components/User/UserProfile';
 import NotFound from './Components/NotFound';
+
 
 function App() {
   return (
