@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <section className="container mainContainer">
       <Head
-        title="CutiCuti"
-        description="Mostre aqui seu bichinho"
+        title=""
+        description="Compartilhe com a gente o seu bichinho no dia a dia e acompanhe também outros animaizinhos :)"
       />
       <Feed />
     </section>

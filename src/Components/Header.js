@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <nav className={`${styles.nav} container`}>
-        <Link className={styles.logo} to="/" aria-label="Dogs - Home">
+        <Link className={styles.logo} to="/" aria-label="CutiCuti - Home">
           <Dogs /> 
           <span style={{paddingLeft: '10px'}}>Feed de Fotos</span>
         </Link>

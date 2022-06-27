@@ -22,7 +22,7 @@ const UserStats = () => {
   if (data)
     return (
       <React.Suspense fallback={<div></div>}>
-        <Head title="Estatísticas" />
+        <Head title="Estatísticas |" />
         <UserStatsGraphs data={data} />
       </React.Suspense>
     );

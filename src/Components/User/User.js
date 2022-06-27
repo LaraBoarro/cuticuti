@@ -13,7 +13,7 @@ const User = () => {
 
   return (
     <section className="container">
-      <Head title="Minha Conta" />
+      <Head title="Minha Conta |" />
       <UserHeader />
       <Routes>
         <Route path="/" element={<Feed user={data.id} />} />
