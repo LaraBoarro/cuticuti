@@ -1,4 +1,4 @@
-export const API_URL = 'http://api.lboarro.tech/json';
+export const API_URL = 'http://api.lboarro.com/json';
 
 export function TOKEN_POST(body) {
   return {
